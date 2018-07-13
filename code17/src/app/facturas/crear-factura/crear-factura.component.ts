@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, DoCheck } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { cifValidator } from '../../validators/cif.validator';
 import { FacturasService } from '../../servicios/facturas.service';
