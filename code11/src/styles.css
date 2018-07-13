@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box
+}
+
+table {
+    width: 100%;
+    padding: 40px;
+}
+
+tr:nth-child(odd) td {
+    background-color: lightseagreen;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(94, 234, 236);
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.title {
+    font-weight:  bold;
+}

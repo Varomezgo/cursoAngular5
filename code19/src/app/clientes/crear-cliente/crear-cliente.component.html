@@ -1,0 +1,5 @@
+<form [formGroup]="formCliente" (ngSubmit)="crearCliente()">
+  <input type="text" placeholder="nombre" formControlName="nombre">
+  <input type="text" placeholder="ciudad" formControlName="ciudad">
+  <button type="submit">Añadir</button>
+</form>
